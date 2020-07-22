@@ -11,6 +11,10 @@ font-family: 'Yeseva One', cursive;
     background-position: center center;
 } */
 
+main{
+    overflow: hidden;
+}
+
 /*End of Global Styles*/
 
 
@@ -147,6 +151,7 @@ font-family: 'Yeseva One', cursive;
     width: 100%;
     height: 200px;
     margin: 0px 0px 20px;
+    border-radius: 5px;
 }
 
 .feature-box-img1{
@@ -179,6 +184,21 @@ font-family: 'Yeseva One', cursive;
     font-family: 'Yeseva One', cursive;
     color: #20426D;
     font-size: 40px;
+}
+
+.feature-text-image-set{
+    max-width: 600px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.feature-text-image-set img{
+    margin-bottom: 10px;
+    margin: 0px 5px 10px;
+    max-width: calc(50% - 10px);
+    box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
 }
 
 .feature-text-image{
