@@ -15,6 +15,10 @@ main{
     overflow: hidden;
 }
 
+body{
+    /* background: #ffe3c8; */
+}
+
 /*End of Global Styles*/
 
 
@@ -83,6 +87,7 @@ main{
     height: 100px;
     width: 49.999%;    
     background: #fff;
+    background: #ffe3c8;
 }
 
 .hero-bottom-box:nth-child(1){
@@ -99,7 +104,8 @@ main{
 /*feature-section*/
  .feature-section{
      text-align: center;
-     margin-bottom: 80px;
+     padding-bottom: 80px;
+     background: #ffe3c8;
  }
 
  .feature-wrapper{
@@ -126,6 +132,7 @@ main{
     max-width: 350px;
     width: 50%;
     margin: 20px;
+    background: #fff;
 }
 
 .feature-box .feature-box-icon{
@@ -217,6 +224,7 @@ main{
 .feature-text-wrapper h3{
     z-index: 2;
     background: #fff;
+    background: #ffe3c8;
     position: relative;
 }
 
@@ -235,7 +243,7 @@ main{
 .orange-rect-outline{
     height: 100%;
     width: 400px;
-    border: 1px solid #FF7D01;
+    border: 2px solid #FF7D01;
     position: absolute;
     border-radius: 40px;
     top: -50px;
@@ -257,12 +265,20 @@ main{
 
 /*feature-text*/
 .feature-text-section{
-    padding: 50px 0px 70px;    
+    padding: 50px 0px 70px;  
+    background: #ffe3c8;  
 }
 
-.feature-text-section:nth-child(2n+1){
+
+
+.feature-text-section:nth-child(2n){
     /* background: #2f52800a; */
+    padding-bottom: 120px;
 }
+
+/* .feature-text-section:nth-last-child(1){
+    padding-bottom: 100px;
+} */
 
 .feature-text-section h3{
     margin-bottom: 20px;
@@ -273,8 +289,9 @@ main{
 .feature-text-section p{
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
-    font-weight: 300;
+    font-weight: 500;
     background: #fff;
+    background: #ffe3c8;
 }
 
 .feature-text{
@@ -301,7 +318,7 @@ main{
 /*footer*/
 .footer-section{
     background: #20426D;   
-    margin-top: 100px; 
+    /* margin-top: 100px;  */
 }
 
 .footer-logo{
@@ -326,4 +343,5 @@ main{
     margin-bottom: 5px;
 }
 /*end of footer*/
+
 
